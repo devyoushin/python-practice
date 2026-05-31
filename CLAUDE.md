@@ -11,16 +11,14 @@ Python 3.11+ 기준의 Python 학습 문서와 실습 코드 모음입니다.
 ├── docs/
 │   ├── README.md      # 문서 구조 안내
 │   ├── install/       # Python 설치, venv, pip
-│   ├── basics/        # 기본 문법
-│   ├── runtime/       # 실행 모델, 스코프, 예외
-│   ├── data/          # 자료구조, 문자열, 날짜
-│   ├── oop/           # 클래스, dataclass
-│   ├── modules/       # 모듈, 패키지, import
-│   ├── io/            # 파일, JSON, YAML, CSV
-│   ├── testing/       # pytest, mocking, coverage
+│   ├── language/      # 기본 문법, 자료구조, 스코프, 예외, OOP
+│   ├── stdlib/        # 모듈, 파일, JSON/YAML/CSV, subprocess, logging
+│   ├── tooling/       # pytest, typing, packaging
 │   ├── automation/    # CLI, subprocess, 운영 자동화
 │   ├── web/           # HTTP client, FastAPI 기초
-│   └── operations/    # logging, typing, packaging, 성능
+│   ├── agents/        # AI 작업용 전문 에이전트 프롬프트
+│   ├── rules/         # 문서 작성과 Python 코드 규칙
+│   └── templates/     # 재사용 문서 템플릿
 └── ops/
     ├── examples/      # 실행 가능한 예제 코드
     ├── memory/        # 학습 진행 기록
