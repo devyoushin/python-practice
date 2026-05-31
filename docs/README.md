@@ -7,7 +7,7 @@ Python 학습 문서는 주제별로 나눠 관리합니다.
 | `install/` | Python 설치, venv, pip, 실행 환경 |
 | `language/` | 변수, 타입, 조건문, 반복문, 함수, 컬렉션, 스코프, 예외, 클래스 |
 | `stdlib/` | 모듈, 패키지, 파일 입출력, JSON, YAML, CSV, subprocess, logging |
-| `tooling/` | pytest, typing, packaging, pyproject.toml |
+| `tooling/` | pytest, typing, packaging, pyproject 설정 예시 |
 | `automation/` | CLI, argparse, 자동화 스크립트 |
 | `web/` | HTTP client, API 호출, FastAPI 기초 |
 | `agents/` | AI 작업용 전문 에이전트 프롬프트 |

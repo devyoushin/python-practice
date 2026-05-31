@@ -53,7 +53,7 @@ python ops/examples/01_hello.py
 
 4. Tooling          -> docs/tooling/
    ├── pytest, typing, packaging
-   └── pyproject.toml 기반 프로젝트 관리
+   └── ops/tools/pyproject.example.toml 기반 설정 예시
 
 5. Practical Topics -> docs/automation/ + docs/web/
    ├── argparse CLI 자동화

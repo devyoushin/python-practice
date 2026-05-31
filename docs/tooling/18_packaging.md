@@ -6,6 +6,9 @@
 
 ## pyproject.toml 예시
 
+이 저장소는 `docs/`와 `ops/` 중심 구조를 유지하기 위해 루트에 `pyproject.toml`을 두지 않습니다.
+실제로 Python 패키지 프로젝트로 전환할 때 참고할 예시는 `ops/tools/pyproject.example.toml`에 둡니다.
+
 ```toml
 [project]
 name = "python-practice"
@@ -27,7 +30,7 @@ dev = [
 line-length = 100
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["ops/tests"]
 ```
 
 ---

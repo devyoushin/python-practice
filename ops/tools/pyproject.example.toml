@@ -23,4 +23,4 @@ data = [
 line-length = 100
 
 [tool.pytest.ini_options]
-testpaths = ["tests"]
+testpaths = ["ops/tests"]
