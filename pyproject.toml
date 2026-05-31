@@ -1,0 +1,26 @@
+[project]
+name = "python-practice"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "ruff",
+  "mypy",
+]
+web = [
+  "fastapi",
+  "uvicorn",
+  "requests",
+]
+data = [
+  "pyyaml",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
